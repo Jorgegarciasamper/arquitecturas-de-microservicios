@@ -32,6 +32,8 @@
 
 📁 **Material en el repositorio:** [`EJEMPLOS/monolito`](curso-microservicios-js/EJEMPLOS/monolito) · [`EJEMPLOS/distribuida`](curso-microservicios-js/EJEMPLOS/distribuida)
 
+Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito / distribuida) y en **2.1** (comunicación síncrona). **Service Discovery** tiene ejemplo en [`EJEMPLOS/service-discovery`](curso-microservicios-js/EJEMPLOS/service-discovery), enlazado desde el tema **2.2**.
+
 ---
 
 ### ⚙️ **Módulo 2 – Comunicación, Descubrimiento y Resiliencia** *(3h)*

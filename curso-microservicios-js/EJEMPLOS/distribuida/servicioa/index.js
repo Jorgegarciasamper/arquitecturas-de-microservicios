@@ -2,9 +2,7 @@
 import express from 'express';
 const app = express();
 
-app.get('/users', (req, res) => {   
-
-  
+app.get('/users', (req, res) => {
   res.json([{ id: 1, name: 'Ana' }]);
 });
 

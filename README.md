@@ -1,6 +1,6 @@
 ## 📘 Temario – Curso “Arquitecturas de Microservicios”
 
-**Duración:** 12 h · **Primer tema:** [1.1 – ¿Qué es una arquitectura monolítica?](curso-microservicios-js/MODULOS/Modulo1/1.1_que_es_una_arquitectura_monolitica.md)
+**Duración:** 12 h · **Primer tema:** [1.1 – ¿Qué es una arquitectura monolítica?](curso-microservicios-js/MODULOS/Modulo1/1.1_que_es_una_arquitectura_monolitica.md) · **Índice de ejemplos:** [`EJEMPLOS/README.md`](curso-microservicios-js/EJEMPLOS/README.md)
 
 ---
 
@@ -56,6 +56,8 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 * Patrón *Circuit Breaker*: detección de errores y fallback.
 * Librería `opossum` para Circuit Breaker en Node.js.
 
+📁 Ejemplo breve: [`EJEMPLOS/resiliencia_minima`](curso-microservicios-js/EJEMPLOS/resiliencia_minima).
+
 #### 2.4 Práctica LAB2 – “Resiliencia aplicada” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/Modulo2/2.4_practica_resiliencia.md)
 
 * Implementar llamadas entre servicios con Axios.
@@ -71,6 +73,8 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 * Diferencia entre *request/response* y *publish/subscribe*.
 * Componentes: productores, consumidores, colas y topics.
 * Garantías de entrega (at-least-once, exactly-once).
+
+📁 RabbitMQ mínimo (publicador / consumidor): [`EJEMPLOS/mensajeria_simple`](curso-microservicios-js/EJEMPLOS/mensajeria_simple).
 
 #### 3.2 Message Broker — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo3/3.2_message_broker.md)
 
@@ -120,6 +124,8 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 * Función: punto único de entrada, routing, autenticación.
 * Ejemplos: Kong, NGINX, Spring Cloud Gateway; en el laboratorio 5.4 se usa **Express** como gateway.
 * Edge Services y control de tráfico.
+
+📁 Gateway mínimo (Express + enrutado a microservicios): [`EJEMPLOS/gateway_minimo`](curso-microservicios-js/EJEMPLOS/gateway_minimo).
 
 #### 5.2 Seguridad distribuida — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo5/5.2_seguridad_distribuida.md)
 

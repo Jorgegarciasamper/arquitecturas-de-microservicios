@@ -1,0 +1,13 @@
+{
+  "name": "ejemplo-mensajeria-simple",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "publicar": "node publicador.js",
+    "consumir": "node consumidor.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.5"
+  }
+}

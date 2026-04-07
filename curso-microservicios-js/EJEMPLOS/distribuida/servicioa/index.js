@@ -6,4 +6,8 @@ app.get('/users', (req, res) => {
   res.json([{ id: 1, name: 'Ana' }]);
 });
 
+app.get('/health', (req, res) => {
+  res.json({ service: 'users', status: 'ok' });
+});
+
 app.listen(3001, () => console.log('Users service en puerto 3001'));

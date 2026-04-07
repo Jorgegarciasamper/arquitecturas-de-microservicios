@@ -15,6 +15,6 @@ En **GitHub Codespaces:** fork del repo, terminal integrada, pestaña **Ports** 
 | [mensajeria_simple](./mensajeria_simple/) | [README](./mensajeria_simple/README.md) | 3.1, 3.2 | RabbitMQ + publicador / consumidor |
 | [gateway_minimo](./gateway_minimo/) | [README](./gateway_minimo/README.md) | 5.1 | Gateway Express → distribuida |
 
-Los laboratorios completos están en `MODULOS/Modulo*/\*_practica_*.md` (tú generas la carpeta `LABS/` siguiendo el guion).
+Los laboratorios completos están en las carpetas temáticas bajo [`MODULOS/`](../MODULOS/) (archivos `*_practica_*.md`; tú generas `LABS/` siguiendo el guion).
 
 **Módulos 4 (CQRS / Event Sourcing) y 5.4 (JWT completo)** no tienen carpeta adicional aquí: el flujo guiado está en `4.3_practica_cqrs.md` y `5.4_practica_gateway_jwt.md`.

@@ -1,6 +1,6 @@
 ## 📘 Temario – Curso “Arquitecturas de Microservicios”
 
-**Duración:** 12 h · **Primer tema:** [1.1 – ¿Qué es una arquitectura monolítica?](curso-microservicios-js/MODULOS/Modulo1/1.1_que_es_una_arquitectura_monolitica.md) · **Índice de ejemplos:** [`EJEMPLOS/README.md`](curso-microservicios-js/EJEMPLOS/README.md)
+**Duración:** 12 h · **Primer tema:** [1.1 – ¿Qué es una arquitectura monolítica?](curso-microservicios-js/MODULOS/01-monolito-y-microservicios/1.1_que_es_una_arquitectura_monolitica.md) · **Índice de ejemplos:** [`EJEMPLOS/README.md`](curso-microservicios-js/EJEMPLOS/README.md)
 
 ---
 
@@ -16,19 +16,19 @@ En el **Codespace por defecto** ya tienes **Node** y **Docker**; para abrir APIs
 
 ### 🧩 **Módulo 1 – Del Monolito a los Microservicios** *(2h)*
 
-#### 1.1 Conceptos iniciales — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo1/1.1_que_es_una_arquitectura_monolitica.md)
+#### 1.1 Conceptos iniciales — 📄 [Abrir tema](curso-microservicios-js/MODULOS/01-monolito-y-microservicios/1.1_que_es_una_arquitectura_monolitica.md)
 
 * ¿Qué es una arquitectura monolítica?
 * Limitaciones comunes: escalado, acoplamiento y mantenimiento.
 * Introducción al paradigma distribuido.
 
-#### 1.2 Evolución hacia microservicios — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo1/1.2_limitaciones_comunes.md)
+#### 1.2 Evolución hacia microservicios — 📄 [Abrir tema](curso-microservicios-js/MODULOS/01-monolito-y-microservicios/1.2_limitaciones_comunes.md)
 
 * Motivaciones técnicas y organizativas.
 * Principio de responsabilidad única (SRP) en la arquitectura.
 * Ventajas y desventajas de la transición.
 
-#### 1.3 Diseño conceptual — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo1/1.3_introduccion_paradigma_distribuido.md)
+#### 1.3 Diseño conceptual — 📄 [Abrir tema](curso-microservicios-js/MODULOS/01-monolito-y-microservicios/1.3_introduccion_paradigma_distribuido.md)
 
 * Separación de dominios de negocio.
 * Contextos delimitados (*Bounded Contexts*).
@@ -48,19 +48,19 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 
 ### ⚙️ **Módulo 2 – Comunicación, Descubrimiento y Resiliencia** *(3h)*
 
-#### 2.1 Comunicación entre servicios — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo2/2.1_comunicacion_entre_servicios.md)
+#### 2.1 Comunicación entre servicios — 📄 [Abrir tema](curso-microservicios-js/MODULOS/02-comunicacion-resiliencia-y-descubrimiento/2.1_comunicacion_entre_servicios.md)
 
 * Comunicación síncrona: REST sobre HTTP.
 * Comunicación asíncrona: eventos y colas.
 * JSON como formato estándar de intercambio.
 
-#### 2.2 Service Discovery — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo2/2.2_service_discovery.md)
+#### 2.2 Service Discovery — 📄 [Abrir tema](curso-microservicios-js/MODULOS/02-comunicacion-resiliencia-y-descubrimiento/2.2_service_discovery.md)
 
 * Problema del direccionamiento dinámico.
 * Registro y descubrimiento (Eureka, Consul, Kubernetes).
 * Ejemplo con **Consul** y Node.js en [`EJEMPLOS/service-discovery`](curso-microservicios-js/EJEMPLOS/service-discovery).
 
-#### 2.3 Balanceo y tolerancia a fallos — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo2/2.3_balanceo_y_resiliencia.md)
+#### 2.3 Balanceo y tolerancia a fallos — 📄 [Abrir tema](curso-microservicios-js/MODULOS/02-comunicacion-resiliencia-y-descubrimiento/2.3_balanceo_y_resiliencia.md)
 
 * Tipos de balanceo (cliente, servidor, DNS).
 * Patrón *Circuit Breaker*: detección de errores y fallback.
@@ -68,7 +68,7 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 
 📁 Ejemplo breve: [`EJEMPLOS/resiliencia_minima`](curso-microservicios-js/EJEMPLOS/resiliencia_minima).
 
-#### 2.4 Práctica LAB2 – “Resiliencia aplicada” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/Modulo2/2.4_practica_resiliencia.md)
+#### 2.4 Práctica LAB2 – “Resiliencia aplicada” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/02-comunicacion-resiliencia-y-descubrimiento/2.4_practica_resiliencia.md)
 
 * Implementar llamadas entre servicios con Axios.
 * Añadir *retry*, *timeout* y *circuit breaker*.
@@ -78,7 +78,7 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 
 ### 🔄 **Módulo 3 – Mensajería Distribuida y Eventos** *(2h)*
 
-#### 3.1 Introducción a la mensajería distribuida — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo3/3.1_arquitectura_eventos.md)
+#### 3.1 Introducción a la mensajería distribuida — 📄 [Abrir tema](curso-microservicios-js/MODULOS/03-mensajeria-y-eventos/3.1_arquitectura_eventos.md)
 
 * Rol del *broker* (RabbitMQ, Kafka) y mensajería asíncrona frente a REST.
 * Contraste *request/response* vs *publish/subscribe*; productores, consumidores, colas y topics.
@@ -86,17 +86,17 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 
 📁 RabbitMQ mínimo (publicador / consumidor): [`EJEMPLOS/mensajeria_simple`](curso-microservicios-js/EJEMPLOS/mensajeria_simple).
 
-#### 3.2 Patrones de enrutamiento y publicación (*exchanges*) — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo3/3.2_message_broker.md)
+#### 3.2 Patrones de enrutamiento y publicación (*exchanges*) — 📄 [Abrir tema](curso-microservicios-js/MODULOS/03-mensajeria-y-eventos/3.2_message_broker.md)
 
 * Tipos de *exchange* (direct, fanout, topic) y claves de enrutamiento.
 * Flujo en el broker; idempotencia y consistencia eventual.
 
-#### 3.3 Coreografía vs Orquestación — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo3/3.3_coreografia_vs_orquestacion.md)
+#### 3.3 Coreografía vs Orquestación — 📄 [Abrir tema](curso-microservicios-js/MODULOS/03-mensajeria-y-eventos/3.3_coreografia_vs_orquestacion.md)
 
 * Diferencia entre coordinación centralizada y descentralizada.
 * Patrones de integración por eventos.
 
-#### 3.4 Práctica LAB3 – “Eventos de pedido” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/Modulo3/3.4_practica_eventos.md)
+#### 3.4 Práctica LAB3 – “Eventos de pedido” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/03-mensajeria-y-eventos/3.4_practica_eventos.md)
 
 * Ejecutar **RabbitMQ** con Docker Compose (local o Codespaces).
 * **Coreografía:** publicar eventos (p. ej. `pedido.creado`) desde `orders-service` y encadenar **payments**, **shipping** y **notifications** mediante el bus.
@@ -106,19 +106,19 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 
 ### 🧠 **Módulo 4 – CQRS y Event Sourcing** *(2h)*
 
-#### 4.1 Separación de comandos y consultas — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo4/4.1_cqrs_comandos_y_consultas.md)
+#### 4.1 Separación de comandos y consultas — 📄 [Abrir tema](curso-microservicios-js/MODULOS/04-cqrs-y-event-sourcing/4.1_cqrs_comandos_y_consultas.md)
 
 * Concepto CQRS (*Command Query Responsibility Segregation*).
 * Ventajas: optimización de lectura y escritura.
 * Casos de uso típicos: informes, auditorías, procesamiento intensivo.
 
-#### 4.2 Event Sourcing (introducción) — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo4/4.2_event_sourcing.md)
+#### 4.2 Event Sourcing (introducción) — 📄 [Abrir tema](curso-microservicios-js/MODULOS/04-cqrs-y-event-sourcing/4.2_event_sourcing.md)
 
 * Almacenar cambios como eventos en lugar de estado final.
 * Reconstrucción del estado desde el historial.
 * Beneficios y retos: trazabilidad, complejidad.
 
-#### 4.3 Práctica LAB4 – “Command vs Query” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/Modulo4/4.3_practica_cqrs.md)
+#### 4.3 Práctica LAB4 – “Command vs Query” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/04-cqrs-y-event-sourcing/4.3_practica_cqrs.md)
 
 * Implementar **`POST /pedido`** (command) y **`GET /pedidos`** (query) en servicios distintos.
 * Generar un evento tras cada comando y consumirlo en el servicio de consultas.
@@ -128,7 +128,7 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 
 ### 🛡️ **Módulo 5 – Gateway y Seguridad en Microservicios** *(3h)*
 
-#### 5.1 API Gateway — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo5/5.1_api_gateway.md)
+#### 5.1 API Gateway — 📄 [Abrir tema](curso-microservicios-js/MODULOS/05-gateway-y-seguridad/5.1_api_gateway.md)
 
 * Función: punto único de entrada, routing, autenticación.
 * Ejemplos: Kong, NGINX, Spring Cloud Gateway; en el laboratorio 5.4 se usa **Express** como gateway.
@@ -136,18 +136,18 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 
 📁 Gateway mínimo (Express + enrutado a microservicios): [`EJEMPLOS/gateway_minimo`](curso-microservicios-js/EJEMPLOS/gateway_minimo).
 
-#### 5.2 Seguridad distribuida — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo5/5.2_seguridad_distribuida.md)
+#### 5.2 Seguridad distribuida — 📄 [Abrir tema](curso-microservicios-js/MODULOS/05-gateway-y-seguridad/5.2_seguridad_distribuida.md)
 
 * Principios: *Zero Trust*, autenticación y autorización distribuida.
 * JSON Web Tokens (JWT) como estándar.
 * Validación de tokens en cada servicio.
 
-#### 5.3 Gestión de configuración y secretos — 📄 [Abrir tema](curso-microservicios-js/MODULOS/Modulo5/5.3_configuracion_y_secretos.md)
+#### 5.3 Gestión de configuración y secretos — 📄 [Abrir tema](curso-microservicios-js/MODULOS/05-gateway-y-seguridad/5.3_configuracion_y_secretos.md)
 
 * Variables de entorno (.env) y configuración centralizada.
 * Principio de *12-Factor App* aplicado a microservicios.
 
-#### 5.4 Práctica LAB5 – “Gateway y autenticación JWT” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/Modulo5/5.4_practica_gateway_jwt.md)
+#### 5.4 Práctica LAB5 – “Gateway y autenticación JWT” — 📄 [Abrir laboratorio](curso-microservicios-js/MODULOS/05-gateway-y-seguridad/5.4_practica_gateway_jwt.md)
 
 * **API Gateway** en Express que **enruta** hacia microservicios usando **`axios`**.
 * **`auth-service`** con **`POST /login`**; el gateway expone **`POST /api/login`** y reenvía la petición.
@@ -161,4 +161,4 @@ Los mismos ejemplos se citan en teoría en **1.1**, **1.2**, **1.3** (monolito /
 * Buenas prácticas en despliegue: Docker Compose y Kubernetes.
 * Recomendaciones de lectura y herramientas (Istio, Linkerd, Dapr, etc.).
 
-📄 **Último laboratorio del curso:** [5.4 – Gateway y JWT](curso-microservicios-js/MODULOS/Modulo5/5.4_practica_gateway_jwt.md)
+📄 **Último laboratorio del curso:** [5.4 – Gateway y JWT](curso-microservicios-js/MODULOS/05-gateway-y-seguridad/5.4_practica_gateway_jwt.md)

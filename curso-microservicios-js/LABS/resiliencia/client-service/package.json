@@ -1,0 +1,1 @@
+{"type":"module","dependencies":{"amqplib":"^1.0.3","axios":"^1.15.0","express":"^5.2.1","opossum":"^9.0.0"}}
